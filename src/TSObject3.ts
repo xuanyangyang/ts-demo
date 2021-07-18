@@ -17,6 +17,12 @@ export class TSObject3{
         this._ts2 = ts2;
     }
 
+    static valueOf(){
+        let t1 = new TSObject1('1');
+        let t2 = new TSObject2(2);
+        return new TSObject3(t1,t2);
+    }
+
 
     get ts1(): TSObject1 {
         return this._ts1;
