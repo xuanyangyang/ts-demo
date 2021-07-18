@@ -2,7 +2,7 @@
   "name": "ts-demo",
   "version": "1.0.0",
   "description": "ts-demo",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "node dist/Test.js",
     "build": "tsc"
