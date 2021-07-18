@@ -4,9 +4,9 @@
  * @author xuanyangyang
  * @since 1.0
  */
-import {TSObject2} from "./TSObject2.js";
-import {TSObject1} from "./TSObject1.js";
-import {TSObject3} from "./TSObject3.js";
+import {TSObject2} from "./Index.js";
+import {TSObject1} from "./Index.js";
+import {TSObject3} from "./Index.js";
 
 let t1 = new TSObject1('1');
 let t2 = new TSObject2(2);
