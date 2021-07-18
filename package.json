@@ -7,6 +7,9 @@
     "test": "node dist/Test.js",
     "build": "tsc"
   },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "module": "ES6",
   "author": "xuanyangyang",
