@@ -4,7 +4,7 @@
  * @author xuanyangyang
  * @since 1.0
  */
-import { TSObject1 } from "./TSObject1.js";
+import { TSObject1 } from "./tsObject1";
 export declare class TSObject5 {
     private _t1;
     constructor(t1: TSObject1);

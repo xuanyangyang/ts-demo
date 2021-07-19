@@ -4,8 +4,7 @@
   "description": "ts-demo",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "node dist/Test.js",
-    "build": "tsc"
+    "build": "rollup --config"
   },
   "files": [
     "dist"
@@ -19,8 +18,11 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.3",
     "@types/node": "^16.3.3",
+    "rollup": "^2.53.2",
     "ts-node": "^10.1.0",
+    "tslib": "^2.3.0",
     "typescript": "^4.3.5"
   }
 }

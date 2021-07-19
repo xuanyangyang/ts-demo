@@ -5,13 +5,18 @@
  * @since 1.0
  */
 export class TSObject1 {
-    constructor(name) {
+    private _name:string;
+
+    constructor(name: string) {
         this._name = name;
     }
-    get name() {
+
+
+    get name(): string {
         return this._name;
     }
-    set name(value) {
+
+    set name(value: string) {
         this._name = value;
     }
 }

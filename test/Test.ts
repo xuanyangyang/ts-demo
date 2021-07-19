@@ -4,7 +4,8 @@
  * @author xuanyangyang
  * @since 1.0
  */
-import { TSObject1, TSObject2, TSObject3, TSObject4, TSObject5 } from "./Index.js";
+import {TSObject1, TSObject2, TSObject3, TSObject4, TSObject5} from "../src/index";
+
 let t1 = new TSObject1('1');
 let t2 = new TSObject2(2);
 console.log(t1);

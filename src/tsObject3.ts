@@ -4,8 +4,8 @@
  * @author xuanyangyang
  * @since 1.0
  */
-import {TSObject2} from "./TSObject2.js";
-import {TSObject1} from "./TSObject1.js";
+import {TSObject2} from "./tsObject2";
+import {TSObject1} from "./tsObject1";
 
 export class TSObject3{
     private _ts1:TSObject1;
